@@ -1,0 +1,56 @@
+/* CSS Document */
+body > div{
+	float:left;
+}
+#draw{
+	border:1px solid gray;
+}
+#colors{
+	width:100%;
+	height:30px;
+}
+#strokes{
+	width:100%;
+	height:30px;
+}
+.sdivs{
+	width:20px;
+	height:20px;
+	float:left;
+	border:1px solid gray;
+	margin:1px;
+}
+.sdivs_active{
+	border:2px solid black;
+}
+.graph_active{
+	border:1px solid white;
+	box-shadow:0px 2px 4px gray;
+}
+#main{
+	position:relative;
+}
+#other{
+	margin-top:60px;
+	margin-left:20px;
+}
+#sk{
+	position:absolute;
+	bottom:3px;
+	right:3px;
+	cursor:nw-resize;
+}
+#skk{
+	position:absolute;
+	cursor:nw-resize;
+	display:none;
+}
+#canvases{
+	position:relative;
+	overflow:hidden;
+}
+.images{
+	position:absolute;
+	left:0;
+	top:0;
+}
